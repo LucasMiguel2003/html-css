@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+        @font-face {
+            font-family: 'Beauty';
+            src: url('fontes/Beauty heart.otf') format('opentype'), url('fontes/Beauty heart.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de format()
+            - Opentype(otf)
+            - truetype(ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */
+        }
+        body{
+            font-family:'Roboto Condensed', sans-serif;
+        }
+        h1{
+            font-family: 'Beauty', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, fugit excepturi. Accusantium quis dolor voluptates, molestias obcaecati possimus nobis atque dolores quas dolore, tenetur minus alias magni eum soluta? Earum.</p>
+</body>
+</html>

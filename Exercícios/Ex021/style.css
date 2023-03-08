@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+    
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 0px;
+    box-shadow: 3px 2px 1px rgba(255, 0, 0, 0.226);
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+}
+
+article{
+    background-color: lightgray;
+   
+}
+article > aside{
+    background-color: red;
+}
+
+nav {
+    background-color: rgb(100, 98, 98);
+    padding: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.137);
+
+}
+nav > a{
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+
+section#assuntos{
+    background-color: aqua;
+}
+section#assuntos:hover{
+    color: red;
+    
+   
+    
+}
+section#assuntos > p{
+    box-shadow: 0px 2px 5px black;
+}
+footer > p{
+    margin: 0px;
+}
+
+div#bola{ 
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: white;
+    
+}
