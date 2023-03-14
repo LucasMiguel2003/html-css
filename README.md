@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
  
- <a href="https://likezaoo.github.io/html-css/Exerc%C3%ADcios/Ex001/">executar o exercicio 001
+ <a href="https://likezaoo.github.io/html-css/Exercicios/Ex001/">Executar o exercicio 001
