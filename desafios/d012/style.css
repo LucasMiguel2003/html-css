@@ -1,4 +1,16 @@
 @charset "UTF8";
 header{
     background-color: black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+header > p > a{
+   color: white;
+}
+header > p{
+    padding: 10px;
 }
