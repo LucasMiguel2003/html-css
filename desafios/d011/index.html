@@ -7,11 +7,26 @@
     <title>Desafio</title>
     <style>
         body{
-            background-image: url(imagens/espaco.jpg);
+           height: 98vh;
+           position: relative;
+            background: black url(imagens/espaco.jpg) center center fixed;
+            background-size: cover;
+        }
+
+        div#dentro{
+            height: 508px;
+            width: 508px;
+            position: absolute;
+            background-image: url(imagens/astronauta.png);
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            
         }
     </style>
 </head>
 <body>
-    
+    <div id="dentro"></div>
+    </div>
 </body>
 </html>
